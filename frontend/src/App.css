@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+ 
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: #5585b5;
+  text-align: center;
+  color: white;
+}
+
+.navbar{
+background-color: #5585b5;
+justify-content: center;
+
+
+}
+.navbar-brand{
+  color: black;
+  
+}
+
+
+.text-center{
+  color:#407088;
+  font-size:xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+}
+.btn-success {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-align: center;
+  margin: auto;
+}
+
+.update {
+  color: #fff;
+  background-color: #b81795;
+  border-color: #386d75;
+}
+.row thead-dark {
+  background-color: #b81795;
+}
+.tout{
+font-family: monospace;
+font-size: 20px;}
+.table {
+  color: #fff;
+  background-color:#bbe4e9;
+  border-color: #ffffff;
+ 
+}
+.table thead{
+  color: #fff;
+  background-color:#79c2d0;
+  border-color: #fdfeff;
+}
